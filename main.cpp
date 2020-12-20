@@ -25,14 +25,14 @@
 #define BUTTONWIDTH 260
 
 // GamePlay Constants
-#define TIME2DEATH 9000
+#define TIME2DEATH 1200
 #define ZOMBIENUMBER 18
 #define BULLET 50
-#define DIFFICULTY 2
-#define ZOMBIELIFE 2
+#define DIFFICULTY 1
+#define ZOMBIELIFE 1
 #define LEVELTIME 200
-#define LEVEL 4
-#define STREAK 6
+#define LEVEL 5
+#define STREAK 5
 
 // Global SDL parameters required in all functions
 SDL_Surface * screen = NULL, * background = NULL, * opaque = NULL;

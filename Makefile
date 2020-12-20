@@ -12,6 +12,9 @@
 ####################################################################################################################
 ####################################################################################################################
 
+play:
+	./ku_zombie
+
 install:
 	sudo apt install build-essential -y
 	sudo apt-get install libsdl1.2-dev -y
@@ -21,5 +24,3 @@ install:
 build:
 	gcc -o ku_zombie main.cpp -lSDL -lSDL_image -lSDL_mixer -lm
 
-play:
-	./ku_zombie
