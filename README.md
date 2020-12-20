@@ -1,2 +1,4 @@
 # KU-Zombie-Invasion
-Kathmandu University in under a Zombie attack! Survuve the invasion and claim your classrooms back!
+Kathmandu University is under a Zombie attack! Survive the invasion and claim your classrooms back!
+
+My first undergrad project :)
