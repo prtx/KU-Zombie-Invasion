@@ -24,3 +24,5 @@ install:
 build:
 	gcc -o ku_zombie main.cpp -lSDL -lSDL_image -lSDL_mixer -lm
 
+web:
+	python3 -m http.server 8000

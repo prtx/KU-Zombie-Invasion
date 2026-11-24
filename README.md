@@ -6,7 +6,17 @@ Bullets are important resources. Time is critical. [Double tap](https://www.yout
 
 ![screenshot](screenshot.png)
 
-## Install and play
+## Play in the browser
+
+The game has a plain JavaScript web version ([index.html](index.html) + [game.js](game.js)) that uses the same images and sounds. No build step or dependencies.
+
+```
+$ make web        # serves the game at http://localhost:8000
+```
+
+You can also open `index.html` directly in a browser, or host the repository on any static host (e.g. GitHub Pages). High scores are saved in the browser's localStorage.
+
+## Install and play (native SDL version)
 
 Download [here](https://github.com/prtx/KU-Zombie-Invasion/raw/main/ku_zombie) or build from source
 
