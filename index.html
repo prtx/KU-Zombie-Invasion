@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Zombie Invasion!!</title>
+  <style>
+    html, body {
+      margin: 0;
+      height: 100%;
+      background: #000;
+      overflow: hidden;
+    }
+    body {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+    }
+    canvas {
+      display: block;
+      /* Keep the original 960x640 (3:2) aspect ratio while filling the window */
+      width: min(100vw, 150vh);
+      height: min(100vh, calc(100vw / 1.5));
+      touch-action: none;
+      user-select: none;
+    }
+  </style>
+</head>
+<body>
+  <canvas id="game" width="960" height="640"></canvas>
+  <script src="game.js"></script>
+</body>
+</html>
